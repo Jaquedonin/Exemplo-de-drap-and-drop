@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Drag-and-Drop Example</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="script.js"></script>    
+    <div id="dropZone">
+      <div
+        id="dropBox1"
+        ondrop="drop(event)"
+        ondragover="allowDrop(event)"
+      >
+        <p>Mamíferos</p>
+      </div>
+      <div
+        id="dropBox2"
+        ondrop="drop(event)"
+        ondragover="allowDrop(event)"
+      >
+        <p>Insetos</p>
+      </div>
+    </div>
+
+    <div
+      id="animals"
+      ondrop="drop(event)"
+      ondragover="allowDrop(event)"
+    >
+      <img
+        id="cat"
+        src="img/gato.png"
+        draggable="true"
+        droppable="false"
+        ondragstart="drag(event)"
+        width="300"
+      />
+
+      <img
+        id="dog"
+        src="img/cachorro.jpg"
+        draggable="true"
+        droppable="false"
+        ondragstart="drag(event)"
+        width="300"
+      />
+
+      <img
+        id="mosca"
+        src="img/mosca.jpg"
+        draggable="true"
+        droppable="false"
+        ondragstart="drag(event)"
+        width="300"
+      />
+
+      <img
+        id="borboleta"
+        src="img/borboleta.jpg"
+        draggable="true"
+        droppable="false"
+        ondragstart="drag(event)"
+        width="300"
+      />
+    </div>
+  </body>
+</html>

@@ -3,10 +3,7 @@ function onDragStart(event) {
 		.dataTransfer
 		.setData('text/plain', event.target.id);
 	//mudando a cor do alov permanemtemente
-	event
-		.currentTarget
-		.style
-		.backgroundColor = 'yellow';
+	
 	//mudando opacidade de acordo com o id do alvo arrastavel
 	
 }
@@ -21,6 +18,8 @@ function onDrop(event) {
 		.getData('text');
 	const draggableElement = document.getElementById(id);
 	const dropzone = event.target;
+
+	
 	//Anexe nosso draggableelemento ao dropzone
 	dropzone.appendChild(draggableElement);
 	if (event.target.id == 'example-dropzone') {
@@ -87,5 +86,10 @@ function onDragEnd(event) {
 		.currentTarget
 		.style
 		.backgroundColor = '#4AAE9B';
+
+}
+
+function onDragEnd2(event) {
+ 	
 
 }

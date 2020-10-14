@@ -1,0 +1,29 @@
+#dropZone,
+#animals {
+  display: flex;
+  flex-flow: row nowrap;
+  min-height: 200px;
+  margin-bottom: 20px;
+}
+
+#dropBox1,
+#dropBox2,
+#dropBox3,
+#dropBox4 {
+  
+  justify-content: center;
+  align-items: ;
+  height: 350px;
+  width: 550px;
+  border: 1px solid #aaaaaa;
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 10px;
+  
+}
+
+img {
+  height: 150px;
+  object-fit: cover;
+  width: 150px;
+}
