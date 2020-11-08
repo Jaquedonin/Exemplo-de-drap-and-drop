@@ -2,28 +2,85 @@
 #animals {
   display: flex;
   flex-flow: row nowrap;
-  min-height: 200px;
-  margin-bottom: 20px;
+  min-height: 100px;
+  margin-bottom: 5px;
 }
 
-#dropBox1,
-#dropBox2,
-#dropBox3,
-#dropBox4 {
+#cat{
+ align-items: center;
+}
+
+.quadrado
+ {
   
   justify-content: center;
   align-items: ;
-  height: 350px;
+  height: 400px;
   width: 550px;
-  border: 1px solid #aaaaaa;
   flex-basis: 100%;
   flex-grow: 1;
-  padding: 10px;
+  padding: 5px;
   
+}
+
+.triangulo
+ {
+  
+  justify-content: center;
+  align-items: ;
+  height: 400px;
+  width: 550px;
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 5px;
+
+}
+
+.quadrado_fundo{
+  background-image: url("img/quadrado_fundo.png");
+  background-size: 350px;
+  width: 320px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: right; 
+  padding-left: 80px;
+  padding-top: 50px;
+}
+
+.triangulo_fundo{
+  background-image: url("img/triangulo_fundo.png");
+  background-size: 350px;
+  width: 320px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: right; 
+  padding-left: 80px;
+  padding-top: 50px;
 }
 
 img {
   height: 150px;
-  object-fit: cover;
+  object-fit: ;
   width: 150px;
+  
 }
+
+.button {
+  background-color: #fca950;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: right;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  background-image: url("img/buttom.png");
+  margin-left: 1000px;
+  margin-top: -5px;
+  padding: 65px;
+  padding-right: 118px;
+  padding-bottom: 1px;
+}
+

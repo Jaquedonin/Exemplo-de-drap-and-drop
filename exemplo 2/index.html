@@ -5,21 +5,27 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <script src="script.js"></script>    
+    <script src="script.js"></script> 
+
     <div id="dropZone">
+
       <div
         id="dropBox1"
+        class="quadrado"
         ondrop="drop(event)"
         ondragover="allowDrop(event)"
       >
-        <p>Mamíferos</p>
+        <p class="quadrado_fundo" width="200"></p>
+       
+
       </div>
       <div
         id="dropBox2"
+        class="triangulo"
         ondrop="drop(event)"
         ondragover="allowDrop(event)"
       >
-        <p>Insetos</p>
+        <p class="triangulo_fundo" width="200"></p>
       </div>
     </div>
 
@@ -28,41 +34,48 @@
       ondrop="drop(event)"
       ondragover="allowDrop(event)"
     >
+
       <img
         id="cat"
-        src="img/gato.png"
+        src="img/quadrado2.png"
         draggable="true"
         droppable="false"
         ondragstart="drag(event)"
-        width="300"
+        width="200"
       />
 
       <img
         id="dog"
-        src="img/cachorro.jpg"
+        src="img/quadrado1.png"
         draggable="true"
         droppable="false"
         ondragstart="drag(event)"
-        width="300"
+        width="200"
+
       />
 
       <img
         id="mosca"
-        src="img/mosca.jpg"
+        src="img/triangulo1.png"
         draggable="true"
         droppable="false"
         ondragstart="drag(event)"
-        width="300"
+        width="200"
       />
 
       <img
         id="borboleta"
-        src="img/borboleta.jpg"
+        src="img/triangulo2.png"
         draggable="true"
         droppable="false"
         ondragstart="drag(event)"
-        width="300"
+        width="200"
       />
+
     </div>
+    
+    <button class="button button4"></button> 
+      
+    
   </body>
 </html>

@@ -25,3 +25,8 @@ function drop(event) {
 function noAllowDrop(ev) {
         ev.stopPropagation();
     }
+
+function Insert(){
+
+  
+}
